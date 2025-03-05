@@ -10,3 +10,4 @@ for i in $(find $MOTD -maxdepth 1 -regex '.+/[0-9\-].+' -not -regex ".+\.disable
 do
     bash $i
 done
+echo ""
